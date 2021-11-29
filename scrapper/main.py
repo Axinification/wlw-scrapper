@@ -22,7 +22,7 @@ def main():
             os.mkdir('temp')
         if not os.path.exists('data'):
             os.mkdir('data')
-        if os.path.isfile('./data/'+categoryName):
+        if os.path.isfile(categoryTextFileUrl):
             continue
 
         print(f"Categories left {categoriesAmount} - {category}")

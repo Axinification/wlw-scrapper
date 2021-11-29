@@ -9,7 +9,7 @@ from tqdm import tqdm
 
 def main(category):
     url_main = "https://www.wlw.de"
-    url_search = "/de/suche"
+    url_search = "/en/search" #   "/de/suche" change for region
     page_param = "/page/" # 2 or more without param for 1st
     category_param =  "?q="+category
     number_of_contacts = 0

@@ -8,7 +8,7 @@ def main(number_of_contacts):
     website=''
     barInstance = tqdm(total=number_of_contacts, position=0)
 
-    ban_list = open('./BannedDomains.txt', 'r')
+    ban_list = open('./scrapper/BannedDomains.txt', 'r')
     bans = ban_list.readlines()
 
     
